@@ -1,0 +1,27 @@
+
+.game-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1976d2;
+    background-clip: content-box;
+}
+
+@media screen and (max-width: 860px) {
+    .team-schedule {
+        width: 80%;
+        margin: auto;
+    }
+
+    .schedule-header {
+        font-size: 1.5rem;
+    }
+}

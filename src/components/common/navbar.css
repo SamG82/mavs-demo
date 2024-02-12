@@ -1,0 +1,18 @@
+.nav-links .button-link {
+    font-size: 1.2rem;
+}
+
+.mavs-logo {
+    transform: scale(3);
+}
+
+/* create more space and decrease font-size */
+@media screen and (max-width: 557px) {
+    .nav-links .button-link {
+        font-size: 0.8rem;
+    }
+
+    .mavs-logo {
+        transform: scale(2.5);
+    }
+}

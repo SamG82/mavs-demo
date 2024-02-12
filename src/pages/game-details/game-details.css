@@ -1,0 +1,71 @@
+.game-details {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+@media screen and (max-width: 1403px) {
+    .game-details {
+        width: 64vw;
+    }
+}
+
+@media screen and (max-width: 1122px) {
+    .game-details {
+        width: 80vw;
+    }
+    .game-summary-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    .timeline-description-text {
+        font-size: 0.7rem;
+
+    }
+
+    .timeline-left-hand-side-content {
+        flex-direction: column;
+    }
+
+    .timeline-logo {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .timeline-avatar-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 722px) {
+    .player-stats {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .field-goal-chart {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 466px) {
+    .details-tabs button {
+        font-size: 0rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .details-tabs button * {
+        margin-right: 0;
+    }
+
+}
+

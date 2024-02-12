@@ -1,0 +1,38 @@
+
+.scouting-reports {
+    margin: auto;
+    width: 40vw;
+}
+
+@media screen and (max-width: 1606px) {
+    .scouting-reports {
+        width: 60vw;
+    }
+
+}
+
+
+@media screen and (max-width: 980px) {
+    .scouting-reports {
+        width:  80%;
+    }
+}
+
+@media screen and (max-width: 684px) {
+    .scouting-reports {
+        width:  95vw;
+    }
+
+    .scouting-reports-title {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .scouting-reports-title {
+        font-size: 1.2rem;
+    }
+
+}

@@ -1,0 +1,32 @@
+.team-ranks {
+    width: 40vw;
+}
+
+.team-ranks-header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1500px) {
+    .team-ranks {
+        width: 55vw;
+    }
+}
+
+@media screen and (max-width: 1045px) {
+    .team-ranks {
+        width: 75vw;
+    }
+}
+
+@media screen and (max-width: 726px) {
+    .team-ranks {
+        width: 98vw;
+    }
+
+    .team-stats-compare {
+        font-size: 0.8rem;
+    }
+}
